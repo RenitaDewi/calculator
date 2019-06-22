@@ -12,6 +12,10 @@ function hitung() {
         hasil.value = Number(input1.value) + Number(input2.value);
     } else if (operator.value === "-") {
         hasil.value = Number(input1.value) - Number(input2.value);
+    } else if (operator.value === "x") {
+        hasil.value = Number(input1.value) * Number(input2.value);
+    } else if (operator.value === "/") {
+        hasil.value = Number(input1.value) / Number(input2.value);
     }
 }
 
