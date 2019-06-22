@@ -15,4 +15,11 @@ function hitung() {
     }
 }
 
+function reset() {
+    hasil.value = 0;
+    input1.value = 0;
+    input2.value = 0;
+}
+
 btnhasil.addEventListener("click", hitung);
+btnreset.addEventListener("click", reset);
