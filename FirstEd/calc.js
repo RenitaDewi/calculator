@@ -9,6 +9,8 @@ btnreset = document.querySelectorAll("button")[1];
 
 function hitung() {
     if (operator.value === "+") {
-        hasil.value = Number(input1.value) + num
+        hasil.value = Number(input1.value) + Number(input2.value);
     }
 }
+
+btnhasil.addEventListener("click", hitung);
