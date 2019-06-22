@@ -4,5 +4,37 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+}
 
+input,
+select {
+    border: none;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    outline: none !important;
+}
+
+input:disabled {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+}
+
+input:not(:disabled) {
+    border-bottom: 1px solid gray;
+}
+
+button {
+    border: none;
+    color: white;
+    background: black;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 25px;
+    box-shadow: 0 25px 25px -15px rgba(0, 0, 0, .5);
+    cursor: pointer;
 }
