@@ -6,3 +6,9 @@ hasil = document.querySelectorAll("input")[0];
 operator = document.querySelectorAll("select")[0];
 btnhasil = document.querySelectorAll("button")[0];
 btnreset = document.querySelectorAll("button")[1];
+
+function hitung() {
+    if (operator.value === "+") {
+        hasil.value = Number(input1.value) + num
+    }
+}
